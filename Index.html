@@ -1,0 +1,51 @@
+<!DOCTYPe html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width", initial-scale-1.0>
+    <title>Login y Registro</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <main>
+        <div class="contenedor_total">
+
+            <div class="caja_trasera">
+                <div class="caja_trasera_login">
+                    <h3>Ya tienes una cuenta?</h3>
+                    <p>Inicia sesión para entrar en la página</p>
+                    <button id="btn_iniciar_sesion">Iniciar Sesión</button>
+                </div>
+
+                <div class="caja_trasera_registro">
+                    <h3>¿Aún no tienes una cuenta?</h3>
+                    <p>Registrate para que puedas iniciar sesion</p>
+                    <button id="btn_registrarse">Registrase</button>
+                </div>
+            </div>
+            <div class="contenedor_login_registro">
+                <form action="" class="formulario_login">
+                        <h2>Iniciar Sesión</h2>
+                            <input type="text" placeholder="Correo Electronico">
+                            <input type="password" placeholder="Contraseña">
+                            <button class="btn_entrar">Entrar</button>
+                            </form>
+           
+                            <form action="" class="formulario_registro">
+                                <h2>Registrarse</h2> 
+                                <input type="text" placeholder="Nombre Completo">
+                                <input type="text" placeholder="Correo Electronico">
+                                <input type="text" placeholder="Usuario">
+                                <input type="text" placeholder="Contraseña">
+                                <button class="btn_registrarse">Registrarse</button>
+                            </form>
+           </div>
+        </div>
+
+</main>
+<script src="jquery-3.6.4.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
